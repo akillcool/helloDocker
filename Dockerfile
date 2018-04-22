@@ -17,5 +17,5 @@ RUN wget https://github.com/mothur/mothur/releases/download/v$MOTHUR_VERSION.1/M
 
 WORKDIR /mothur/mothur
 
-ENTRYPOINT ["mothur"]
+ENTRYPOINT ["/mothur/mothur/mothur"]
 
